@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f9;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: 400px;
+    gap: 200px;
+}
+.circle{
+    display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+  color: #aaa;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.header {
+    background-color: #ff3e6c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    gap: 2em;
+}
+@media screen and (max-width:600px) {
+    .container{
+        //flex-direction: column;
+        flex-direction: row;
+    }
+}
+.account-section,
+.bag-section {
+    background-color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.option {
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.option img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: #ff3e6c;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e1335b;
+}
+
+.bag-section .price-details {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: 400px;
+    gap: 200px;
+}
+.circle{
+    display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+  color: #aaa;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+
+.add{
+    font-family: Arial, sans-serif;
+    background-color :lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: rgb(237, 65, 93);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button.submit-btn {
+    background-color: rgb(224, 81, 105);
+    color: #fff;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 160px;
+}
+
+button.submit-btn:hover {
+    background-color: rgb(159, 29, 51);
+}
+
+button:active {
+    background-color: lightpink;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input, textarea, select {
+        font-size: 12px;
+    }
+
+    button.submit-btn {
+        font-size: 14px;
+    }
+}

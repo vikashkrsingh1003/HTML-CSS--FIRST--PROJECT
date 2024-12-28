@@ -1,0 +1,116 @@
+.pay{
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: 400px;
+    gap: 200px;
+}
+.circle{
+    display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+  color: #aaa;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+
+.form-container {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-info, .personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-field, .card-details div, .personal-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button.pay-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(242, 102, 123);
+    color: #fff;
+    border: none;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.pay-button:hover {
+    background-color: pink;
+}
